@@ -15,20 +15,3 @@ Name: 左滑返回-roothide
 Author: Mao
 Sponsor: admin@25mao.com
 
-Package: com.flex2areo.apptools15roothide
-Architecture: iphoneos-arm64e
-Version: 2.9.2
-Section: Tweaks
-Maintainer: aReo
-Installed-Size: 5536
-Depends: mobilesubstrate
-Filename: debs/com.flex2areo.apptools15roothide_2.9.2_iphoneos-arm64e.deb
-Size: 2388980
-MD5sum: 078b1218cc1f29eb6852ca932773df14
-SHA1: 0d20ed12427c9339e2670ea88556cfc3f1952164
-SHA256: 67d987854ff77847bf2b4c14a0467eb366818014cf6f384f3293e4ec0a0c4e6d
-SHA512: c1155c0773c9be8d34b825f434e97ddae1054bcdef89141253a4610ce9f6d3b6661e354d2b711f6d06a357f7be2de76ca03f24b828270074dd97038f64f36e96
-Description: AppTools for iOS15-17 Roothide
-Name: AppTools15-17(Roothide)
-Author: aReo
-
