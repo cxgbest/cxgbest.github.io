@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>cxgbest 源</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center;
+         background:#0d1117; color:#e6edf3; font-family:-apple-system,"PingFang SC",sans-serif; }
+  .card { text-align:center; padding:32px 24px; max-width:420px; }
+  img { width:96px; height:96px; border-radius:22px; }
+  h1 { font-size:22px; margin:18px 0 6px; }
+  p { color:#8b949e; font-size:14px; line-height:1.7; margin:6px 0; }
+  code { display:block; background:#161b22; border:1px solid #30363d; border-radius:10px;
+         padding:12px; margin:16px 0; font-size:13px; color:#79c0ff; word-break:break-all; }
+  a { color:#58a6ff; text-decoration:none; font-size:14px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <img src="CydiaIcon.png" alt="icon">
+  <h1>cxgbest 源</h1>
+  <p>在 Cydia / Sileo / Zebra 中添加以下地址：</p>
+  <code>https://cxgbest.github.io/</code>
+  <p>源索引（Packages）：<br><a href="Packages">/Packages</a> · <a href="Release">/Release</a></p>
+  <p id="cnt">—</p>
+</div>
+<script>
+fetch('Packages').then(r => r.text()).then(t => {
+  const n = t.split(/^Package: /m).length - 1;
+  document.getElementById('cnt').textContent = n > 0 ? ('当前收录 ' + n + ' 个包') : '当前暂无软件包';
+}).catch(() => {});
+</script>
+</body>
+</html>
