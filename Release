@@ -1,10 +1,16 @@
-Origin: cxgbest
-Label: cxgbest
+Origin: 
+Label: 
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: cxgbest repo
+Description: 
+Support: https://cxgbest.github.io/
 Icon: https://cxgbest.github.io/CydiaIcon.png
-Date: Sat, 31 Oct 2026 13:01:43 UTC
+MD5Sum:
+ a87791587a997751bf2383e44da0d427  2035 Packages
+ 7aac12684baed65e63adc9e1a2757f06  1171 Packages.gz
+SHA256:
+ 061f041dc5f650687ea159a4dea4de45e650eee45910ff025b992e3f8fbae38f  2035 Packages
+ e138f1c68324e5cebbfd1e13b98b0ef084c0fd36c6fe17a46e994195a440b136  1171 Packages.gz
