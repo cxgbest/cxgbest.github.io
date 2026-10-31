@@ -1,10 +1,10 @@
 Origin: cxgbest
-Label: cxgbest 私人源
+Label: cxgbest
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64
 Components: main
-Description: cxgbest 的私人 deb 源
+Description: cxgbest repo
 Icon: https://cxgbest.github.io/CydiaIcon.png
-Date: Sat, 31 Oct 2026 10:48:07 UTC
+Date: Sat, 31 Oct 2026 11:07:46 UTC
