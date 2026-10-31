@@ -1,0 +1,14 @@
+Package: me.ray.jev-chat
+Name: Jev-Chat
+Description: 微信意图识别 + 人性化建议回复（判断层 SystemOne / 生成层 OpenAI 兼容；回复方式可多选）
+Maintainer: ray
+Author: ray
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.1.1-20261024.1059-2+debug
+Installed-Size: 2404
+Filename: debs/a7c9c483/me.ray.jev-chat_1.1.1-20261024.1059-2+debug_iphoneos-arm64.deb
+Size: 791804
+SHA256: 84d47f887f5a7c5145b03b0b63ea56f0ea42777aab59e370b16ddd067d3e0ee0
+
