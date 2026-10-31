@@ -1,3 +1,17 @@
+Package: com.25mao.leftpan
+Version: 2.0-1
+Section: 辅助插件
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>=1.0.4)
+Architecture: iphoneos-arm64e
+Installed-Size: 376
+Name: 左滑返回-roothide
+Author: Mao
+Sponsor: admin@25mao.com
+Filename: debs/a7c9c483/com.25mao.leftpan_2.0-1_iphoneos-arm64e.deb
+Size: 33790
+SHA256: 9603a25cf193bba482d6cbd45078d1e080f24b6ab5dddb09c72fda1e5499d284
+
 Package: me.ray.jev-chat
 Name: Jev-Chat
 Description: 微信意图识别 + 人性化建议回复（判断层 SystemOne / 生成层 OpenAI 兼容；回复方式可多选）
