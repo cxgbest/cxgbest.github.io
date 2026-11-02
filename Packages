@@ -1,3 +1,25 @@
+Package: com.axs.zzfilter
+Architecture: iphoneos-arm64e
+Version: 5.2.0-8
+Section: Tweaks
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 372
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/ZZFilter-5.2.0-8-iphoneos-arm64e.deb
+Size: 62420
+MD5sum: 556eeca2a25f6d925ba6aa2d1ac31616
+SHA1: 99263da7e8efdf436f80892586bc6d78baf859f9
+SHA256: ceb376b155bee1f100245555c50885d07646fbd6524a821271ec1b50ad69fd2f
+SHA512: 912194d45f0f72be0fe4905052e079005aa0612885ed553c57edbc5c72f5b0f3cdae16edadd5cb48c6235af5770fd8ad6b7bb4aee725f1ee37ab5cddc18a035c
+Description: 转转筛选助手
+ * 1.先输入需要搜索的商品名称，进入页面后，长按悬浮球（或点面板「开始爬取」）自动抓取全数据
+ * 2.按机型/电池/系统版本/成色/内存筛选
+ * 3.支持单条复制链接、单条打开详情页与一键复制全部链接
+Name: ZZFilter
+Author: Axs <qiaozhani000@163.com>
+icon: https://huayuarc.github.io/icon/zhuanzhuan.png
+
 Package: com.flex2areo.apptools15roothide
 Architecture: iphoneos-arm64e
 Version: 2.9.2
