@@ -20,6 +20,25 @@ Name: ZZFilter
 Author: Axs <qiaozhani000@163.com>
 icon: https://huayuarc.github.io/icon/zhuanzhuan.png
 
+Package: com.Axs.recorder-bubble
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
+Maintainer: sunshinesong
+Installed-Size: 304
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/å½å±è±ç£-0.0.1-iphoneos-arm64.deb
+Size: 41820
+MD5sum: 7b105312d506286806a77e0f2d8f25c5
+SHA1: e2873774442f6f50d03ab73de26a695c788c07d9
+SHA256: f59f39f1ab2c32d9fcb33977e27beccd3c43b8959b5736d31b363da6bf308759
+SHA512: da649dbea8f3b953e59ca2d70abc0e9920ea24c8d9d2eab2276ffd86c71c8a8b58562deb9b3b7abab06735f0ba1d86e3ccd8344991de9227e7c778679671ce39
+Description: 无设置项，当录制屏幕时，显示一个花瓣悬浮球指示器。
+Name: 录屏花瓣
+Author: sunshinesong
+Icon: https://axs66.github.io/pro/icon/huaban.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/recorder-bubble/js.json
+
 Package: com.flex2areo.apptools15roothide
 Architecture: iphoneos-arm64e
 Version: 2.9.2
