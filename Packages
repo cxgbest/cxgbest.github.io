@@ -37,6 +37,24 @@ Description: AppTools for iOS15-17 Roothide
 Name: AppTools15-17(Roothide)
 Author: aReo
 
+Package: com.iosdump.shellx
+Architecture: iphoneos-arm64e
+Version: 11.3
+Section: Tweaks
+Maintainer: iosdump
+Installed-Size: 11452
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.crctdd.sbtrim
+Filename: debs/com.iosdump.shellx_11.3_iphoneos-arm64e.deb
+Size: 2601634
+MD5sum: 875d7936255d0996660a65e605aa1d06
+SHA1: 995a1741bdeba8f0177736626107c88e10e64085
+SHA256: 16cd095a77a219a2cdd122048e644f2d9c6bb8a7a99e16939a8fd19b858feb75
+SHA512: f2ef597cfd261d637972a59226fb476062f8f63ea8eb01096489533f4bbfbe42e1cecabbe570a58ad01c0112780550ad69730c2011039e023ae78e3f0ad7d700
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Name: SHELLX
+Author: iosdump
+
 Package: com.25mao.leftpan
 Architecture: iphoneos-arm64e
 Version: 2.0-1
