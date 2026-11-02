@@ -94,27 +94,6 @@ Description: 支持录屏/截图套壳，水印以及区域截图、长截图、
 Name: SHELLX
 Author: iosdump
 
-Package: com.opa334.ccsupport
-Architecture: iphoneos-arm64
-Version: 1.3.13-2
-Section: Tweaks
-Maintainer: opa334
-Installed-Size: 560
-Provides: com.ioscreatix.silo
-Depends: mobilesubstrate, firmware (>=11.0)
-Conflicts: com.ioscreatix.silo
-Replaces: com.ioscreatix.silo
-Filename: debs/com.opa334.ccsupport_1.3.13-2_iphoneos-arm64.deb
-Size: 58952
-MD5sum: f108fb86bbbe13ee3a1e381eea1d0f97
-SHA1: 176a01aeb900f5c0d31bceb6751441059e0cea24
-SHA256: 5d59f00755bf40d21bfa86e75e121b561a23ab1cad9632fbeede8563ef65bfde
-SHA512: 56445154bd9bab6a003b3d6b4b15439bf35abd4bdbc05124a4a53f9ca36b323d40c139d84c7fe55b15f82eb945f1798abc795863b0fafd7861673c2769f4707d
-Description: Support tweak for CC modules!
-Name: CCSupport
-Author: opa334
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
-
 Package: com.25mao.leftpan
 Architecture: iphoneos-arm64e
 Version: 2.0-1
