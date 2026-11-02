@@ -75,16 +75,3 @@ MD5sum: 2e95ded78927edaba6acdb3042e93202
 SHA1: 960be185f8d064d44046064c57e26fa07251fff3
 SHA256: 9603a25cf193bba482d6cbd45078d1e080f24b6ab5dddb09c72fda1e5499d284
 
-Package: 录屏花辨
-Name: 
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: 
-Author: 
-Description: 
-Filename: debs/å½å±è±ç£-0.0.1-iphoneos-arm64.deb
-Size: 41820
-MD5sum: 7b105312d506286806a77e0f2d8f25c5
-SHA1: e2873774442f6f50d03ab73de26a695c788c07d9
-SHA256: f59f39f1ab2c32d9fcb33977e27beccd3c43b8959b5736d31b363da6bf308759
-
