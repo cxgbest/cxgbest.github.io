@@ -113,6 +113,33 @@ Description: AppTools for iOS15-17 Roothide
 Name: AppTools15-17(Roothide)
 Author: aReo
 
+Package: com.hmmzzz.fontmanager
+Architecture: iphoneos-arm64e
+Version: 0.3.8
+Section: Utilities
+Maintainer: Hmmzzz
+Installed-Size: 2512
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Filename: debs/com.hmmzzz.fontmanager_0.3.8_iphoneos-arm64e.deb
+Size: 496354
+MD5sum: f132713a8c4b8fe6af4e44cf4fb38579
+SHA1: d633241637e563c27c0e7f16516b205aad43fe36
+SHA256: 8ef039cfcf1051b15bdd00b661f452343bc2c707e33ba67cd75888afb298b514
+SHA512: c7ca0774ff3cd742597c1f50980fa83cb56c632b6b23e260530b048d0f21a9f42ff49f4f60352227defbc8e3545052c3437d74b9b587262efb00505552179d5c
+Homepage: https://hmmzzz.github.io/repo/
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。
+ 可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，
+ 将字体安全应用到整个系统，也可以随时恢复系统默认字体。
+ .
+ MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后
+ 自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Name: MarkFont
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+
 Package: com.iosdump.airdrop
 Architecture: iphoneos-arm64e
 Version: 0.0.2
