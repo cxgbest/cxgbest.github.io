@@ -17,6 +17,23 @@ Name: CCLess++(RootHide)
 Author: 妖刀
 SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
 
+Package: im.mjh.fakeperm.roothide
+Architecture: iphoneos-arm64e
+Version: 8.9.3
+Section: Tweaks
+Maintainer: Junhong
+Installed-Size: 1588
+Depends: firmware (>=15.0), preferenceloader
+Filename: debs/FakePermission_8.9.3_arm64e.deb
+Size: 282146
+MD5sum: df05845d523fce7e81aedf248d7dfe28
+SHA1: dc29bd1beeed78196d41565724fa7b6e012bec9e
+SHA256: 339e00dc705e98bc74ba0bab16540ee77a097dcd613df27751513abe937ffd2f
+SHA512: cf20d403439c8575187e00b64784b2c680b8166347ab6f3fc3befc57a29436432c9f1f1606611a6ffc2cbab9cf35595b8c5dde458a6bbf38f061843868a78a94
+Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
+Name: 虚拟权限 · Fake Permission (Roothide)
+Author: Junhong
+
 Package: com.axs.zzfilter
 Architecture: iphoneos-arm64e
 Version: 5.2.0-8
