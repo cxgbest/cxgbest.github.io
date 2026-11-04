@@ -78,6 +78,24 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.keyboard.ai.png
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.keyboard.ai
 
+Package: com.flex2areo.appprotect
+Architecture: iphoneos-arm64e
+Version: 2.5.0
+Section: Tweaks
+Maintainer: aReo
+Installed-Size: 2648
+Depends: mobilesubstrate,preferenceloader
+Conflicts: com.flex2areo.appprotectroothide,  com.flex2areo.appprotectrootless
+Filename: debs/com.flex2areo.appprotect_2.5.0_iphoneos-arm64e.deb
+Size: 667586
+MD5sum: c52199dd349a208919ac1f767ea1b7ef
+SHA1: 6f0ef9efa5e3ac1b297fe0e078ce9a90ee18d4c9
+SHA256: f939524cd1180ce0a1c929c00857fa72d37b18976dad4c948dc0edcc901f4908
+SHA512: 9debcececf309b6a29e0b6567beef88b77aa766dcab2194271020af65b2092fb66d6c1f383e1e5a9614752798c739edc83af1b32c6922f8081d9424bc093eeee
+Description: App 隐私保护
+Name: AppProtect(Roothide)
+Author: aReo
+
 Package: com.flex2areo.apptools15roothide
 Architecture: iphoneos-arm64e
 Version: 2.9.2
