@@ -34,6 +34,39 @@ Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度�
 Name: 虚拟权限 · Fake Permission (Roothide)
 Author: Junhong
 
+Package: com.hk.settingsrevamp.cn.rl
+Architecture: iphoneos-arm64e
+Version: 3.0.1
+Section: 嗨-汉化
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: debs/SettingsRevamp 简体中文包(RootHide)_3.0.1.deb
+Size: 8668
+MD5sum: 745ff8754c4d10aa024a6d2479bf31e8
+SHA1: 5678930641d606c2bb04a627eda41971ce960997
+SHA256: 65891937e1c591a163a8d69b1c173b362766da2e4b60dc8caec19a2b4a0f5b74
+SHA512: 8a8add8523ccbba34b8ad08e2c6f36142429fa99891a312750bab762a3fc0240a2d797432faf9f30414d6bc9f1102ba2651ede0419bd3e2505b53f980d3261f0
+Description: SettingsRevamp 简体中文包(RootHide)。
+Name: SettingsRevamp 简体中文包(RootHide)
+Author: 妖刀
+
+Package: com.dao.settingsrevamp
+Architecture: iphoneos-arm64e
+Version: 3.0.1.1
+Section: 嗨-工具
+Maintainer: SOPPPra
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14), com.hk.settingsrevamp.cn.rl
+Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksettings, xyz.cypwn.settingswidgets, org.mr.settingswidgets, com.trappledestek.settingswidgets, com.shepgoba.settingswidgets, com.sop.settingsrevamp
+Filename: debs/SettingsRevamp(RootHide)_3.0.1.1.deb
+Size: 408120
+MD5sum: 62944430c975e25f84e1b0d421dfb798
+SHA1: 306174e2b598351e6cd5d521f70d16e7318d8869
+SHA256: 4801a5a2fbf715091caa0b495677acc901d433dfc829da6732f779bbc6ab9a85
+SHA512: 9139e628f7eb7fda3fd7922439e6bbc6923c6f2941236e98dbcf87489604a008b210cac45f32217456f658a1c7d47432b19f279f735b26e7a5b8ca884419a39d
+Description: 设置自定义、归类插件，源内有汉化包；v3.0.x版本，功能大体和之前v2.1.1差不多，就改了个插件首页。
+Author: SOPPPra
+Name: SettingsRevamp(RootHide)
+
 Package: com.axs.zzfilter
 Architecture: iphoneos-arm64e
 Version: 5.2.0-8
