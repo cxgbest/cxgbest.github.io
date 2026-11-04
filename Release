@@ -9,8 +9,8 @@ Description:
 Support: https://cxgbest.github.io/
 Icon: https://cxgbest.github.io/CydiaIcon.png
 MD5Sum:
- 97da967e3472b71edc9c0dd0b014ac9c  7075 Packages
- 0543ae3844fc57c26c52d42647a8e746  3443 Packages.gz
+ b24e446e2688d79bea96c12cd0146640  7818 Packages
+ d02c8fa2a68e40a333f0971faa89a0ff  3791 Packages.gz
 SHA256:
- fbffcf5855d0c1adaef424c7d3cfd50c06ba3488cc682bf867dcff4405af26ae  7075 Packages
- 0cf3f8eb0e396cd31106bcc03e2a0d3f51e0bc7e7303991d3fb68c1fca13f1ce  3443 Packages.gz
+ ead0cdf0166a4ff60741464820fe54c38d69b1cee0e44400a2ef29040a9d2f71  7818 Packages
+ 9d00b3ab49ffa4f7aec7f6d4910faf274a1da87fe6c3a548a615c8f9c8362cfb  3791 Packages.gz

@@ -113,6 +113,23 @@ Description: AppTools for iOS15-17 Roothide
 Name: AppTools15-17(Roothide)
 Author: aReo
 
+Package: com.iosdump.airdrop
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: Tweaks
+Maintainer: iosdump
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/com.iosdump.airdrop_0.0.2_iphoneos-arm64e.deb
+Size: 7432
+MD5sum: 3a9c44a88731f309908dafb3a90e6461
+SHA1: a583b2814d184c922cc58aea09159f9bc3721dc1
+SHA256: a1229d3c7e5d7bb4cb6c3de8d589013dfd6b52336e6947b351bd67ee35c0ab52
+SHA512: 5fdd5c216c2f662fb4f153333dc568dd8ecc07f04939180fd0471e18cd10ed477d4ac05942b54b0d40ec69b849c63de3b5d9cee4a05eb59e98859fb4ccf1b002
+Description: 解除隔空投送十分钟限制，支持设置自定义关闭时间，4秒内控制中心隔空投送连续点击两次所有人即可触发设置弹窗，支持iOS16.1.1+
+Name: AirDrop
+Author: iosdump
+
 Package: com.iosdump.shellx
 Architecture: iphoneos-arm64e
 Version: 11.3
