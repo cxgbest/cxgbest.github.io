@@ -1,91 +1,113 @@
 Package: com.axs.zzfilter
-Name: ZZFilter
-Version: 5.2.0-8
 Architecture: iphoneos-arm64e
+Version: 5.2.0-8
+Section: Tweaks
 Maintainer: Axs <qiaozhani000@163.com>
-Author: Axs <qiaozhani000@163.com>
-Description: 转转筛选助手 * 1.先输入需要搜索的商品名称，进入页面后，长按悬浮球（或点面板「开始爬取」）自动抓取全数据 * 2.按机型/电池/系统版本/成色/内存筛选 * 3.支持单条复制链接、单条打开详情页与一键复制全部链接
+Installed-Size: 372
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/ZZFilter-5.2.0-8-iphoneos-arm64e.deb
 Size: 62420
 MD5sum: 556eeca2a25f6d925ba6aa2d1ac31616
 SHA1: 99263da7e8efdf436f80892586bc6d78baf859f9
 SHA256: ceb376b155bee1f100245555c50885d07646fbd6524a821271ec1b50ad69fd2f
+SHA512: 912194d45f0f72be0fe4905052e079005aa0612885ed553c57edbc5c72f5b0f3cdae16edadd5cb48c6235af5770fd8ad6b7bb4aee725f1ee37ab5cddc18a035c
+Description: 转转筛选助手
+ * 1.先输入需要搜索的商品名称，进入页面后，长按悬浮球（或点面板「开始爬取」）自动抓取全数据
+ * 2.按机型/电池/系统版本/成色/内存筛选
+ * 3.支持单条复制链接、单条打开详情页与一键复制全部链接
+Name: ZZFilter
+Author: Axs <qiaozhani000@163.com>
+icon: https://huayuarc.github.io/icon/zhuanzhuan.png
 
 Package: com.Axs.recorder-bubble
-Name: 录屏花瓣
-Version: 0.0.1
 Architecture: iphoneos-arm64
+Version: 0.0.1
+Section: Tweaks
 Maintainer: sunshinesong
-Author: sunshinesong
-Description: 无设置项，当录制屏幕时，显示一个花瓣悬浮球指示器。
+Installed-Size: 304
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
 Filename: debs/å½å±è±ç£-0.0.1-iphoneos-arm64.deb
 Size: 41820
 MD5sum: 7b105312d506286806a77e0f2d8f25c5
 SHA1: e2873774442f6f50d03ab73de26a695c788c07d9
 SHA256: f59f39f1ab2c32d9fcb33977e27beccd3c43b8959b5736d31b363da6bf308759
+SHA512: da649dbea8f3b953e59ca2d70abc0e9920ea24c8d9d2eab2276ffd86c71c8a8b58562deb9b3b7abab06735f0ba1d86e3ccd8344991de9227e7c778679671ce39
+Description: 无设置项，当录制屏幕时，显示一个花瓣悬浮球指示器。
+Name: 录屏花瓣
+Author: sunshinesong
+Icon: https://axs66.github.io/pro/icon/huaban.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/recorder-bubble/js.json
 
 Package: cn.zqbb.hello.keyboard.ai
-Name: Hello 键盘侠 (roothide)
-Version: 6.6.6-9
 Architecture: iphoneos-arm64e
+Version: 6.6.6-9
+Section: zqbb Tweaks
 Maintainer: zqbb
-Author: zqbb
-Description: Quickly activate AI mode.
+Installed-Size: 29852
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.zqbb.hello.keyboard.ai
 Filename: debs/cn.zqbb.hello.keyboard.ai_6.6.6-9_iphoneos-arm64e.deb
 Size: 7823028
 MD5sum: 10ae5f4a3473148849dbdf35dc3eddec
 SHA1: 8038094727af1ff1af2cb7e7f520358c09da83ac
 SHA256: c692239d3a17997371373bb4289313e06cc1e8733c46889107504486141ee007
+SHA512: 385e77fa4802c4dec7e517229d28c4662f2efb1334ae200dfa06d37c8ae3bac2b5f90bb5f67358902715e43acd604b07b4e00c8019054aee4cc77df748285e4d
+Description: Quickly activate AI mode.
+Name: Hello 键盘侠 (roothide)
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.keyboard.ai.png
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.keyboard.ai
 
 Package: com.flex2areo.apptools15roothide
-Name: AppTools15-17(Roothide)
-Version: 2.9.2
 Architecture: iphoneos-arm64e
+Version: 2.9.2
+Section: Tweaks
 Maintainer: aReo
-Author: aReo
-Description: AppTools for iOS15-17 Roothide
+Installed-Size: 5536
+Depends: mobilesubstrate
 Filename: debs/com.flex2areo.apptools15roothide_2.9.2_iphoneos-arm64e.deb
 Size: 2388980
 MD5sum: 078b1218cc1f29eb6852ca932773df14
 SHA1: 0d20ed12427c9339e2670ea88556cfc3f1952164
 SHA256: 67d987854ff77847bf2b4c14a0467eb366818014cf6f384f3293e4ec0a0c4e6d
+SHA512: c1155c0773c9be8d34b825f434e97ddae1054bcdef89141253a4610ce9f6d3b6661e354d2b711f6d06a357f7be2de76ca03f24b828270074dd97038f64f36e96
+Description: AppTools for iOS15-17 Roothide
+Name: AppTools15-17(Roothide)
+Author: aReo
 
 Package: com.iosdump.shellx
-Name: SHELLX
-Version: 11.3
 Architecture: iphoneos-arm64e
+Version: 11.3
+Section: Tweaks
 Maintainer: iosdump
-Author: iosdump
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Installed-Size: 11452
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.crctdd.sbtrim
 Filename: debs/com.iosdump.shellx_11.3_iphoneos-arm64e.deb
 Size: 2601634
 MD5sum: 875d7936255d0996660a65e605aa1d06
 SHA1: 995a1741bdeba8f0177736626107c88e10e64085
 SHA256: 16cd095a77a219a2cdd122048e644f2d9c6bb8a7a99e16939a8fd19b858feb75
+SHA512: f2ef597cfd261d637972a59226fb476062f8f63ea8eb01096489533f4bbfbe42e1cecabbe570a58ad01c0112780550ad69730c2011039e023ae78e3f0ad7d700
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Name: SHELLX
+Author: iosdump
 
 Package: com.25mao.leftpan
-Name: 左滑返回-roothide
-Version: 2.0-1
 Architecture: iphoneos-arm64e
+Version: 2.0-1
+Section: 辅助插件
 Maintainer: admin@25mao.com
-Author: Mao
+Installed-Size: 376
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>=1.0.4)
 Filename: debs/左滑返回-roothide-2.0-1-iphoneos-arm64e.deb
 Size: 33790
 MD5sum: 2e95ded78927edaba6acdb3042e93202
 SHA1: 960be185f8d064d44046064c57e26fa07251fff3
 SHA256: 9603a25cf193bba482d6cbd45078d1e080f24b6ab5dddb09c72fda1e5499d284
-
-Package: com.susudear.appdata
-Name: AppData
-Version: 1.4.1
-Architecture: iphoneos-arm64e
-Maintainer: Fouad Raheb & SuSuDear
-Author: Fouad Raheb & SuSuDear
-Description: AppData 根据 Fouad Raheb 开源二改，默认上滑启动，无设置项，添加降级功能。
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/com.susudear.appdata_1.4.1_iphoneos-arm64e.deb
-Size: 524778
-MD5sum: 46e3fda959f801c16c39ec9f2a49ecb1
-SHA1: 5f5a95609ce94d60e1244d49d59299549130c763
-SHA256: 6fa75747f09e84153a5f925f3fd507303afcb5e69eb281bdf6c0810a550d56e2
+SHA512: 29f9ae38db4647349b4ee797d1252193cc8a607b7fe74ffc18e53a48fc8b4704d39bf3c8df91557418a193fa9a2c165582b81f6e78624d2777dd40d75d6d1ba1
+Name: 左滑返回-roothide
+Author: Mao
+Sponsor: admin@25mao.com
 
