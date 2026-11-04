@@ -75,3 +75,17 @@ MD5sum: 2e95ded78927edaba6acdb3042e93202
 SHA1: 960be185f8d064d44046064c57e26fa07251fff3
 SHA256: 9603a25cf193bba482d6cbd45078d1e080f24b6ab5dddb09c72fda1e5499d284
 
+Package: com.susudear.appdata
+Name: AppData
+Version: 1.4.1
+Architecture: iphoneos-arm64e
+Maintainer: Fouad Raheb & SuSuDear
+Author: Fouad Raheb & SuSuDear
+Description: AppData 根据 Fouad Raheb 开源二改，默认上滑启动，无设置项，添加降级功能。
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.susudear.appdata_1.4.1_iphoneos-arm64e.deb
+Size: 524778
+MD5sum: 46e3fda959f801c16c39ec9f2a49ecb1
+SHA1: 5f5a95609ce94d60e1244d49d59299549130c763
+SHA256: 6fa75747f09e84153a5f925f3fd507303afcb5e69eb281bdf6c0810a550d56e2
+
