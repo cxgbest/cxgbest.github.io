@@ -242,6 +242,25 @@ Description: 支持录屏/截图套壳，水印以及区域截图、长截图、
 Name: SHELLX
 Author: iosdump
 
+Package: com.mlgm.clone
+Architecture: iphoneos-arm64e
+Version: 0.2.1
+Priority: optional
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 5300
+Depends: firmware (>= 15.0), ellekit (>= 1.2-1), preferenceloader (>= 2.2.8), com.opa334.altlist (>= 1.0.11), com.opa334.libsandy (>= 1.1.6-4)
+Filename: debs/com.mlgm.clone_0.2.1_iphoneos-arm64e.deb
+Size: 801988
+MD5sum: 6e647164ebcd8001ed9d88d8b2f87ec3
+SHA1: 1e0097e80e27f4daeb40031e9c4fa0665c50e900
+SHA256: 1f067a7eb0f4fbb67ec969ebec80a59f2c47c1eb1eee820158ab1ea4dd55375e
+SHA512: 905abbf8289b1f13f9ab8e8d556350cd46a26951f9ac23cebfc2365a1ad086f55242fa5438f7f56cea5b5d8f2cc7e6e05cde26b7dfd6a520d9900c894cc14900
+Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
+Name: Clone
+Icon: https://mlgm66.github.io/icon/clone.png
+Author: mlgm
+
 Package: xyz.cypwn.sneakycam
 Architecture: iphoneos-arm64e
 Version: 2.2.2
